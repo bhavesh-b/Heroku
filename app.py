@@ -1,3 +1,6 @@
+import webbrowser
+
+webbrowser.open('http://google.com')
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
